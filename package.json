@@ -1,6 +1,6 @@
 {
   "name": "@dokuhero/react-18n-ts-helper",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Set of helpers to work with https://github.com/i18next/react-i18next",
   "main": "dist/index.js",
   "typings": "typings/index.d.ts",
