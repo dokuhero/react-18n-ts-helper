@@ -1,0 +1,47 @@
+{
+  "name": "@dokuhero/react-18n-ts-helper",
+  "version": "0.0.0",
+  "description": "Set of helpers to work with https://github.com/i18next/react-i18next",
+  "main": "dist/index.js",
+  "typings": "typings/index.d.ts",
+  "files": [
+    "dist",
+    "typings"
+  ],
+  "scripts": {
+    "lint": "tslint 'src/**/*.ts{,x}'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -d --declarationDir ./typings",
+    "build": "rm -rf typings && rm -rf dist && npm run compile && prettier ./typings/**/*.d.ts --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dokuhero/react-18n-ts-helper.git"
+  },
+  "keywords": [
+    "react",
+    "i18n",
+    "translate"
+  ],
+  "author": "Budi Adiono <budiadiono@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dokuhero/react-18n-ts-helper/issues"
+  },
+  "homepage": "https://github.com/dokuhero/react-18n-ts-helper#readme",
+  "devDependencies": {
+    "@types/i18next": "^8.4.5",
+    "@types/react-i18next": "^7.8.2",
+    "i18next": "^11.8.0",
+    "prettier": "^1.14.2",
+    "react-i18next": "^7.12.0",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.0.3"
+  },
+  "peerDependencies": {
+    "i18next": "*",
+    "react-i18next": "*"
+  }
+}
